@@ -1,0 +1,16 @@
+{
+    "name": "Old style Github",
+    "version": "1.0",
+    "description": "Swap the two columns of the new Github Site",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://github.com/"
+            ],
+            "js": [
+                "js/index.js"
+            ]
+        }
+    ]
+}
